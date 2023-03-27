@@ -1,0 +1,22 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "Kactuswow",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cactuswow/Tailwind.git"
+  },
+  "author": "Kactuswow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cactuswow/Tailwind/issues"
+  },
+  "homepage": "https://github.com/Cactuswow/Tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
